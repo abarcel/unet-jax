@@ -8,7 +8,7 @@ U-Net is a special case of classic encoder-decoder model with skip connections b
 
 <br>
 
-In most cases, skipping layer used between encoder-decoder layers. In this example, it is used between layers inside blocks and this probably the reason of why it is named "U-Net-like Architecture", but the example still captures the all essence required to create a more complex U-Nets. Please check [Tensorflow Pix2Pix](https://www.tensorflow.org/tutorials/generative/pix2pix) example if still want to see simple implementation of skipping layers between encoder and decoder.
+In most cases, skipping layer used between encoder-decoder blocks. In this example, it is used between layers inside blocks and this is probably the reason of why it is named "U-Net-like Architecture", but the example still captures the all essence required to create a more complex U-Nets. Please check [Tensorflow Pix2Pix](https://www.tensorflow.org/tutorials/generative/pix2pix) example if still want to see simple implementation of skipping layers between encoder and decoder.
 
 
 
